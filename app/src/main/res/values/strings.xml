@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MVP-demo</string>
+
+    <!--login-->
+    <string name="login_submit">登\t\t录</string>
+    <string name="login_title">登录</string>
+    <string name="login_hint_auth_code">请输入您的密码</string>
+    <string name="login_hint_mobile">请输入您的账号</string>
+    <string name="login_digits">1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM.,!~`:,.()-=+_</string>
+    <string name="login_logout">注销</string>
+
+</resources>

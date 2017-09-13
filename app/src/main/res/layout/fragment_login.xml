@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/input_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_login_mobile"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_login_mobile"
+            android:hint="@string/login_hint_mobile"
+            android:inputType="text"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:background="#3dc2b1" />
+
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/input_auth_code"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_login_authcode"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_login_authcode"
+            android:hint="@string/login_hint_auth_code"
+            android:inputType="textPassword"
+            android:selectAllOnFocus="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginStart="30dp"
+            android:background="#3dc2b1" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_select_login"
+            android:text="@string/login_submit"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
